@@ -2,7 +2,7 @@
 
 A place to play with Typescript
 
-#Initialisation
+## Initialisation
 
     # install tsc
     npm install typescript --savedev
@@ -21,7 +21,7 @@ A place to play with Typescript
     # continuous test runner (generate coverage report too, see coverage folder)
     node_modules/karma/bin/karma start
 
-#TODO
+## TODO
 
 - Why these problems?
 
@@ -31,4 +31,4 @@ Watch out, if we add `import {describe} from 'karma';` then it fails miserably! 
 
 - why is coverage shown as entire js file and not ts file? ie it says its a ts file but shows the js version
 
-- 
+-
