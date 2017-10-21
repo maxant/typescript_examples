@@ -28,3 +28,7 @@ A place to play with Typescript
     ERROR [compiler.karma-typescript]: test/greeter.spec.ts(4,1): error TS2304: Cannot find name 'describe'.
 
 Watch out, if we add `import {describe} from 'karma';` then it fails miserably! `karma test` won't even start up and the error message is very cryptic!
+
+- why is coverage shown as entire js file and not ts file? ie it says its a ts file but shows the js version
+
+- 
