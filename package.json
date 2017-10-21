@@ -1,15 +1,22 @@
 {
   "name": "typescript_examples",
   "version": "1.0.0",
-  "description": "",
+  "description": "A typescript playground",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Ant",
   "license": "ISC",
   "dependencies": {
     "@types/lodash": "^4.14.78",
     "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "jasmine": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-typescript": "^3.0.8"
   }
 }
