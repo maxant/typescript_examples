@@ -16,10 +16,16 @@ A place to play with Typescript
     node_modules/typescript/bin/tsc -w
 
     # run the program
-    node dist/index.js
+    node dist/src/index.js
 
     # continuous test runner (generate coverage report too, see coverage folder)
     node_modules/karma/bin/karma start
+
+    # clean all
+    rm -rf node_modules && rm -rf coverage && rm -rf dist
+    npm install
+
+
 
 ## TODO
 
