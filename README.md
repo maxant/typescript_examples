@@ -5,7 +5,7 @@ A place to play with Typescript
 ## Initialisation
 
     # install tsc
-    npm install typescript --savedev
+    npm install typescript --save-dev
 
     # initialise tsc config file
     node_modules/typescript/bin/tsc --init
@@ -25,7 +25,12 @@ A place to play with Typescript
     rm -rf node_modules && rm -rf coverage && rm -rf dist
     npm install
 
-
+    # using npm
+    npm run clean
+    npm install
+    npm run test
+    npm run dist
+    npm run run
 
 ## TODO
 
