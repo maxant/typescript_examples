@@ -13,10 +13,13 @@
     "lodash": "^4.17.4"
   },
   "devDependencies": {
+    "@types/jasmine": "^2.6.0",
+    "@types/karma": "^1.7.1",
     "jasmine": "^2.8.0",
     "karma": "^1.7.1",
     "karma-chrome-launcher": "^2.2.0",
     "karma-jasmine": "^1.1.0",
+    "karma-remap-coverage": "^0.1.4",
     "karma-typescript": "^3.0.8"
   }
 }
