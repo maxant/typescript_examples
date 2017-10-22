@@ -52,3 +52,7 @@ A place to play with Typescript
 
 Watch out, if we add `import {describe} from 'karma';` then it fails miserably! `karma test` won't even start up and the error message is very cryptic!
 
+## Issues
+
+- https://github.com/monounity/karma-typescript/issues/202
+- 
