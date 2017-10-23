@@ -22,7 +22,7 @@ A place to play with Typescript
     node_modules/karma/bin/karma start
 
     # clean all
-    rm -rf node_modules && rm -rf coverage && rm -rf dist
+    rm -rf node_modules && rm -rf coverage && rm -rf dist && rm -f npm-debug.log
     npm install
 
     # using npm
@@ -34,7 +34,7 @@ A place to play with Typescript
 
 ## TODO
 
-- maybe just use jasmine-core instead of jasmine, in package.json? need to fully uninstall jasmine first!
+- add more ts stuff
 
 ## Watch out...
 

@@ -1,6 +1,6 @@
 import {Student, Person} from '../src/data';
 import greeter from '../src/greeter';
-import {} from 'jasmine';
+import {} from 'jasmine-core';
 
 describe('Greeter', () => {
     it("should give appropriate message", () => {
