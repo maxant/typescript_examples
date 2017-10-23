@@ -20,8 +20,30 @@ the number is ${ num + 1 }.
 });
 
 describe('Data Types', () => {
-    it("strings", () => {
-        console.log('TODO');
+    it("arrays", () => {
+        let list1: number[] = [1, 2, 3];
+        let list2: Array<number> = [1, 2, 3];
+    });
+});
 
+describe('Data Types', () => {
+    it("tuples", () => {
+        let x: [string, number];
+        x = ["hello", 10]; // OK
+        //x = [10, "hello"]; // Error
+        x[6] = 1; //ok, because its a string or a number AND outside of index 0 and 1
+        x[6] = 'ok'; // ditto
+        //x[6] = true; // not ok, coz not string or number
+    });
+});
+
+describe('Data Types', () => {
+    it("tuples", () => {
+        let x: [string, number];
+        x = ["hello", 10]; // OK
+        //x = [10, "hello"]; // Error
+        x[6] = 1; //ok, because its a string or a number AND outside of index 0 and 1
+        x[6] = 'ok'; // ditto
+        //x[6] = true; // not ok, coz not string or number
     });
 });

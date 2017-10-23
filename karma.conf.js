@@ -9,11 +9,9 @@ module.exports = function(config) {
             "src/**/*.ts": ["karma-typescript", "coverage"],
             "test/**/*.ts": ["karma-typescript"]
         },
-        reporters: ["progress", "coverage", "remap-coverage", "karma-typescript"],
+        reporters: ["progress", "coverage", "karma-typescript"],
         coverageReporter: { type: 'in-memory' },
         remapCoverageReporter: { html: './coverage' },
-//        remapOptions: { basePath: './dist' },
-//        plugins: ['karma-coverage', 'karma-remap-coverage'],
         browsers: ["Chrome"],
         karmaTypescriptConfig: {
             tsconfig: "./tsconfig.json",
