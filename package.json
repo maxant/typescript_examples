@@ -12,6 +12,7 @@
   "author": "Ant",
   "license": "ISC",
   "dependencies": {
+    "@types/es6-promise": "0.0.33",
     "@types/lodash": "^4.14.78",
     "lodash": "^4.17.4"
   },
@@ -23,6 +24,7 @@
     "karma-chrome-launcher": "^2.2.0",
     "karma-jasmine": "^1.1.0",
     "karma-typescript": "^3.0.8",
-    "typescript": "^2.5.3"
+    "typescript": "^2.5.3",
+    "xml2js": "^0.4.19"
   }
 }

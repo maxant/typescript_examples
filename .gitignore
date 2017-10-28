@@ -4,3 +4,6 @@ dist
 coverage
 npm-debug.log
 
+# ignore files related to the program read_xml_out_csv.ts
+read_xml_out_csv.js
+output.csv

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <servlet>
+        <name>servlet1</name>
+        <param-key>key1</param-key>
+        <param-value>value1</param-value>
+    </servlet>
+    <servlet>
+        <name>servlet2</name>
+        <param-key>key1</param-key>
+        <param-value>value1</param-value>
+        <param-key>key2</param-key>
+        <param-value>value2</param-value>
+    </servlet>
+    <servlet>
+        <name>servlet3</name>
+        <param-key>key2</param-key>
+        <param-value>value2</param-value>
+    </servlet>
+</config>

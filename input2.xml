@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config>
+    <servlet>
+        <name>servlet4</name>
+        <param-key>key2</param-key>
+        <param-value>value4</param-value>
+    </servlet>
+</config>

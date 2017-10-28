@@ -2,6 +2,12 @@
 
 A place to play with Typescript
 
+## read_xml_out_csv.ts
+
+Special case: currently, we're running tests with karma which runs tests in the browser. this file requires the
+file system which doesn't work in the browser. So... the file lies outside of the src folder. See its header for
+instructions.
+
 ## Initialisation
 
     # install tsc
@@ -34,6 +40,7 @@ A place to play with Typescript
 
 ## TODO
 
+- change over to mocha so we can test stuff that doesn't exist in browser, like file system
 - add more ts stuff
 
 ## Watch out...
