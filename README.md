@@ -54,3 +54,22 @@ instructions.
 ## Fixed Issues
 
 - https://github.com/monounity/karma-typescript/issues/202
+
+----
+
+# Blog about read_xml_out_csv
+
+Python: ~20ms
+Typescript: 40ms
+Scala: > 900ms
+
+Scala:
+- The XML processing API which allows you to write nice readable code which has standard collection style functions, for
+  example the following line which builds a tuple of file model and the servlet node, for each servlet node found in the
+  file:
+
+    return XML.loadFile(file) \\ "servlet" map((fileModel, _))
+
+- pattern matching for giving tuples named parameters and dealing with parameter nodes in the XML
+- powerful collections library for writing functional code for transforming data
+-
